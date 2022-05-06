@@ -15,12 +15,4 @@ namespace Web_IA
             RouteConfig.RegisterRoutes(RouteTable.Routes);
         }
     }
-    public class MvApplication : System.Web.HttpApplication
-    {
-        protected void Application_Start()
-        {
-            AreaRegistration.RegisterAllAreas();
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
-        }
-    }
 }
